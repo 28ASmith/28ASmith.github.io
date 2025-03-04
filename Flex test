@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+
+</head>
+
+<body>
+    <p id="textBox">This is some text</p>
+</body>
+<script>
+    let textBox = document.getElementById("textBox")
+
+    function writeText() {
+        textBox.innerHTML = "This is some <i>OTHER<i> text.";
+    }
+</script>
+
+</html>
