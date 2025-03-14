@@ -7,6 +7,12 @@ a, a:visited {
 }
 a:hover {
     background-color: #67976f;
+}
 
+#buttons {
+    display: none;
+}
 
+#toolbar {
+    display: flex;
 }
